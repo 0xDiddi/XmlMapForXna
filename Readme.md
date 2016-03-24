@@ -14,3 +14,7 @@ The Usage of this add-on is quite simple. If you have used custom pipeline tools
 Once you added the map to your content pipeline, you can use it in the code by adding the same dll to your c# project references and using this line of code:
 
     TileMap map = Content.Load<TileMap>("Map_Location/map_file");
+
+##Notes
+
+The Map format is my own, so it probably won't work with maps from other editors. My Editor can be found in the "Final" folder. But be aware: it's not totally finished and loading is totally broken. Apart from that, you will need a "Tileset.xml" in a "Content" subfolder containing presets for the Tiles. An example of how this is supposed to look can also be found in the "Final" folder.

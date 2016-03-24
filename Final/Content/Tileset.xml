@@ -1,0 +1,60 @@
+<TileSet>
+
+	<Tile
+		name="null"
+		texture="">
+
+		<texture-offset x="0" y="0"/>
+
+	</Tile>
+
+	<Tile
+		name="Grass"
+		texture="Tiles\Terrain\grass">
+		
+		<!--	This defines an area which the player cannot pass.
+				It can be left out like here.
+		<collision x=0 y=0 width=64 height=64/>
+		-->
+		
+		<!--	This defines the offset of the texture.
+				It must exist. -->
+		<texture-offset x="0" y="0"/>
+		
+	</Tile>
+	
+	<Tile
+		name="Dirt"
+		texture="Tiles\Terrain\dirt">
+		
+		<texture-offset x="0" y="0"/>
+		
+	</Tile>
+	
+	<Tile
+		name="Stone"
+		texture="Tiles\Terrain\stone">
+		
+		<texture-offset x="0" y="0"/>
+		
+	</Tile>
+	
+	<Tile
+		name="Rock"
+		texture="Tiles\Terrain\rock">
+		
+		<collision x="0" y="0" width="64" height="64"/>
+		<texture-offset x="0" y="0"/>
+		
+	</Tile>
+	
+	<Tile
+		name="Large Rock"
+		texture="Tiles\Terrain\rock_large">
+		
+		<collision x="0" y="0" width="64" height="64"/>
+		<texture-offset x="0" y="-64"/>
+		
+	</Tile>
+
+</TileSet>
