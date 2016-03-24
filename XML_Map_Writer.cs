@@ -9,7 +9,7 @@ namespace XmlMap {
 
         protected override void Write(ContentWriter output, TileMap value) {
 
-            Console.Write("Writing Map...");
+            Console.WriteLine("Writing Map...");
 
             output.Write(value.Width);
             output.Write(value.Height);
